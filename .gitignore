@@ -51,3 +51,6 @@ credentials.json
 
 # Ignore pdf files
 *.pdf
+
+# Ignore txt files
+*.txt
