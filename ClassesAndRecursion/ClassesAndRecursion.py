@@ -1,10 +1,3 @@
-#----------------------------------------
-#  CSC 315 / 615 Spring 2023
-#  Project 1 TaxonomyTree
-#
-#  <<put your name here>>
-#----------------------------------------
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,8 +47,6 @@ class TaxonomyTree:
     self.root = TaxonomyNode("","")
 
   def addSpecies(self,names,categories):
-    # ToDo:  implement code to populate the TaxonomyTree
-    #        self.root given the names and categories
     current = self.root
     for i in range(len(categories)):
       if not current.hasChild(names[i],categories[i]):
@@ -77,14 +68,10 @@ class TaxonomyTree:
       return lineno
 
   def print(self):
-    # Do not modify
     TaxonomyTree.print_internal(self.root,1,"","")
 
   @staticmethod
   def listScientificNames_internal(node):
-    # Extra Credit:  Implement a recursive function to traverse
-    #                the TaxonomyTree and return a list of
-    #                Scientific Names
 
     if len(node.children) == 0:
       return [node.name]
@@ -97,36 +84,34 @@ class TaxonomyTree:
     return names
 
   def printScientificNames(self):
-    # Do not modify
     names = TaxonomyTree.listScientificNames_internal(self.root)
     names.sort()
     for name in names:
       print(name)
 
-
-
-
-#------------------------------------------
-# Main code
-#   Do not Modify
 #------------------------------------------
 
-# Read the Pandas dataframe
-df = pd.read_csv("proj4/taxonomy.csv")
-rows = df.shape[0]
-cols = df.shape[1]
-categories = list(df.columns)[1:cols]
+def main():
+  # Read the Pandas dataframe
+  df = pd.read_csv("ClassesAndRecursion/taxonomy.csv")
+  rows = df.shape[0]
+  cols = df.shape[1]
+  categories = list(df.columns)[1:cols]
 
-# Construct a Taxonomy Tree
-tree = TaxonomyTree()
+  # Construct a Taxonomy Tree
+  tree = TaxonomyTree()
 
-# Insert species into the tree row by row
-for r in range(rows):
-  names = list(df.iloc[r,1:cols])
-  tree.addSpecies(names,categories)
+  # Insert species into the tree row by row
+  for r in range(rows):
+    names = list(df.iloc[r,1:cols])
+    tree.addSpecies(names,categories)
 
-# Print the contents of the TaxonomyTree
-tree.print()
+  # Print the contents of the TaxonomyTree
+  tree.print()
 
-# Extra Credit: print all scientific names in alphabetical order
-tree.printScientificNames()
+  # Extra Credit: print all scientific names in alphabetical order
+  tree.printScientificNames()
+
+#------------------------------------------
+
+main()
