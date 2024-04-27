@@ -17,8 +17,8 @@ This project applies machine learning techniques to recognize handwritten digits
    - [K-Nearest Neighbors](#k-nearest-neighbors)
    - [Prediction Time](#prediction-time)
 7. [Analyzing Results of Classification](#analyzing-results-of-classification)
-   - [Confusion Matrix](#confusion-matrix)
    - [Visualizing the K-Means Clusters](#visualizing-the-k-means-clusters)
+   - [Confusion Matrix](#confusion-matrix)
    - [Visualizing the Classifications](#visualizing-the-classifications)
 8. [Conclusion](#conclusion)
 9. [Running The Project](#running-the-project)
@@ -65,6 +65,10 @@ I also calculate the amount of time it took to classify the testing data as an a
 
 I assess the results of this model through a series of Visualizations.
 
+### Visualizing the K-Means Clusters
+
+This section displays each digit's 9 clusters in a clean and digestible format. Another sanity check.
+
 ### Confusion Matrix
 
 Confusion matrices are a common diagnostic metric in machine learning models.
@@ -85,10 +89,6 @@ Confusion matrices are a common diagnostic metric in machine learning models.
 - By analyzing the confusion matrix, we can gain insights into the model's performance for different classes and make informed decisions about adjusting the classification threshold or improving the model's training.
 
 In addition, I also calculate the prediction accuracy and display the prediction time.
-
-### Visualizing the K-Means Clusters
-
-This section displays each digit's 9 clusters in a clean and digestible format. Another sanity check.
 
 ### Visualizing the Classifications
 
