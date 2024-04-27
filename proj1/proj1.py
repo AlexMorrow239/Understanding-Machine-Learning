@@ -28,7 +28,8 @@ def main():
 
                 if pikachu.hitpoints <= 0:
                     print("Pikachu fainted")
-                    return
+                    input("<<press enter>>")
+                    break
 
                 usr_choice = "-1"
                 while usr_choice not in ["1", "2", "3"]:
@@ -43,11 +44,12 @@ def main():
                 elif usr_choice == "2":
                     pikachu.sand_attack(bulbasaur)
                 elif usr_choice == "3" and throw_pokeball(bulbasaur):
-                    return
-
+                    input("<<press enter>>")
+                    break
                 if bulbasaur.hitpoints <= 0:
                     print("Bulbasaur fainted")
-                    return
+                    input("<<press enter>>")
+                    break
         else:
             print("Goodbye!")
             break
