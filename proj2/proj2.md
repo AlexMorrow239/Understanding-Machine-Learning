@@ -72,14 +72,6 @@ This probabilistic approach provides a nuanced mechanism for classification, lev
 - _Data Analysis Techniques:_ Both scripts demonstrate essential data analysis techniques, from basic statistical calculations to more complex probabilistic models.
 - _Classifier Design:_ The project illustrates two different approaches to classification, providing insight into machine learning methodologies at a fundamental level.
 
-## Required Installations
-
-Ensure you have Python 3.x installed. Install the required libraries using:
-
-```bash
-pip3 install matplotlib numpy pandas scipy
-```
-
 ## Running The Project
 
 - Basic Classification using Euclidian Distance:
@@ -92,4 +84,12 @@ python EuclideanDist.py
 
 ```bash
 python Gaussian.py
+```
+
+## Required Installations
+
+Ensure you have Python 3.x installed. Install the required libraries using:
+
+```bash
+pip3 install matplotlib numpy pandas scipy
 ```
