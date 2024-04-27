@@ -5,7 +5,7 @@ from scipy.stats import norm
 
 def main():
 
-    data = load_dataset('data_banknote_authentication.csv')
+    data = load_dataset('BankNoteAuthenticator/DataBanknoteAuthentication.csv')
     apply_gaussian(data)
 
     centroids = calculate_centroids(data)

@@ -4,7 +4,7 @@ import pandas as pd
 
 def main():
 
-    data = load_dataset('data_banknote_authentication.csv')
+    data = load_dataset('BankNoteAuthenticator/DataBanknoteAuthentication.csv')
 
     centroids = calculate_centroids(data)
 
