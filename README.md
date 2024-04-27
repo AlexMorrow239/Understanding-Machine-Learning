@@ -29,7 +29,7 @@ Reach out to me at any of these places:
 
 If you wish to learn more about me, check out my personal webpage at:
 
-**```https://alexmorrow239.github.io/my-portfolio/**```
+**```https://alexmorrow239.github.io/my-portfolio/```**
 
 ## License
 
