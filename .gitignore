@@ -24,3 +24,9 @@ Thumbs.db
 # Ignore pdf and txt files
 *.pdf
 *.txt
+
+# Ignore Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Ignore images
+beach_compressed_k5.bmp
