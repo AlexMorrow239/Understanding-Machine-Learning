@@ -1,10 +1,5 @@
-# CSC315
-
 ## Welcome!
-
-This repo contains all my major coursework for CSC315 (PYTHON in STEM) at the University of Miami.
-
-I am treating this repo as a **blog** to show others how to create cool and interesting projects in Python. I provide in depth analysis on each of my projects and the underlying concepts that are used within them. My purpose in creating this is to inspire and educate others.
+This repo is a **blog** to show others how to create cool and interesting projects in Python. I provide in depth analysis on each of my projects and the underlying concepts that are used within them. My purpose in creating this is to inspire and educate others.
 
 Feel free to have a look around and I hope you leave with a new or better understanding of a topic!
 
@@ -30,7 +25,3 @@ Reach out to me at any of these places:
 If you wish to learn more about me, check out my personal webpage at:
 
 **```https://alexmorrow239.github.io/my-portfolio/```**
-
-## License
-
-- This project is licensed under the MIT License - see the LICENSE file for details.
