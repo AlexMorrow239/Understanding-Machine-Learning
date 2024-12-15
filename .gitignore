@@ -30,3 +30,8 @@ Thumbs.db
 
 # Ignore images
 beach_compressed_k5.bmp
+model_1.png
+
+# Ignore model files    
+*.keras
+*.pt
