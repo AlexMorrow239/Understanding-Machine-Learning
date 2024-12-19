@@ -28,10 +28,6 @@ Thumbs.db
 # Ignore Jupyter Notebook checkpoints
 *.ipynb_checkpoints/
 
-# Ignore images
-beach_compressed_k5.bmp
-model_1.png
-
 # Ignore model files    
 *.keras
 *.pt
