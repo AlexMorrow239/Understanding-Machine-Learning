@@ -86,4 +86,4 @@ Connect with me:
 
 - Email: <alex.morrow239@gmail.com>
 - LinkedIn: [Alex Morrow](https://www.linkedin.com/in/alex-morrow-62a1532a4/)
-- Portfolio: [https://alexmorrow239.github.io/my-portfolio/](https://alexmorrow239.github.io/my-portfolio/)
+- Portfolio: [alex-morow.com](https://alex-morrow.com/)
